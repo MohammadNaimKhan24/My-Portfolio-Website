@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', cursive;
+  font-weight: 700;
+}
+
+.text-danger {
+  font-size: 1.2rem;
+}
+
+.fired {
+  color: #e25822;
+}
+
+.icon {
+  color: #e25822;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-link {
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #dc3545;
+}
+
+.logo {
+  margin-left: 1rem;
+}
+
+.logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.profile {
+  padding: 80px 30px;
+  height: 100vh;
+  background-image: url("./images/background/biography-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.profile img {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 250px;
+  height: 300px;
+}
+
+.profile p {
+  width: 70%;
+}
+
+.projects {
+  margin-top: 200px;
+}
+
+.projects h3 {
+  text-align: center;
+  color: #dc3545;
+}
+
+.projects img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.projects img:hover {
+  opacity: 0.7;
+}
+
+.about {
+  margin-top: 100px;
+  background-image: url("./images/background/header-bg.png");
+  background-position: top left;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+.about h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.experience {
+  margin-top: 100px;
+  background-image: url("./images/background/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+.experience h5 {
+  background: #111;
+  margin: auto;
+  text-align: center;
+}
+
+.experience h3 {
+  background-color: #111;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card ol li:hover {
+  background: #e25822;
+  padding: 5px;
+}
+
+.contact {
+  padding: 2% 10%;
+  height: 100vh;
+  background-color: #dc3545;
+}
+
+.form-item {
+  padding: 6% 10%;
+  margin-top: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit,
+.reset {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+label {
+  font-weight: bolder;
+}
+
+.footer-area {
+  background-color: #282531;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+}
+
+.footer-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.social-media {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.social-media:hover {
+  color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    margin-top: 20px;
+  }
+  .nav-link:hover {
+    background-color: #e25822;
+    padding: 5px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .text-danger {
+    font-size: 0.8rem;
+  }
+  .footer-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+  .footer li a {
+    font-size: 12px;
+  }
+  .social-media {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
